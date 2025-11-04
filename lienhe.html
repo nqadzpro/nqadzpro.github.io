@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="lienhe.css">
+</head>
+<body>
+    <h1>Khoa CNTT - Đại học Đại Nam</h1>
+    <header>
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="./trangchu.html">Trang chủ</a></li>
+        <li>
+          <a href="./gioithieu.html">Giới thiệu</a></li>
+        <li>
+          <a href="./daotao.html">Đào tạo</a>
+            <ul class="menu">
+              <li><a href="">Đại học</a></li>
+              <li><a href="">Thạc Sĩ</a></li>
+              <li><a href="">Ngắn hạn</a></li>
+            </ul>
+        </li>
+        <li>
+          <a href="./sinhvien.html">Sinh viên</a>
+          <ul>
+            <li><a href="">CLB</a></li>
+            <li><a href="">Học bổng</a></li>
+            <li><a href="">Việc làm</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="./tintuc.html">Tin tức</a></li>
+        <li>
+          <a href="./lienhe.html">Liên hệ</a></li>
+      </ul>
+    </div>
+    </header>
+    <h2>Liên hệ với chúng tôi</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Họ và tên:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Chủ đề:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="message">Nội dung:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Gửi">
+    </form>
+    <footer>
+      <p>Email: dnu@dainam.edu.vn</p>
+      <p>&copy; 2025 Khoa CNTT - Đại học Đại Nam</p>
+      <p>Địa chỉ: Số 1, Phố Xốm, Phường Phú Lương, Thành phố Hà Nội</p>
+    </footer>
+</body>
+</html>
