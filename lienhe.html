@@ -3,61 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liên hệ</title>
+    <title>Trang liên hệ</title>
     <link rel="stylesheet" href="lienhe.css">
 </head>
 <body>
-    <h1>Khoa CNTT - Đại học Đại Nam</h1>
     <header>
-    <div class="menu">
-      <ul>
-        <li>
-          <a href="./trangchu.html">Trang chủ</a></li>
-        <li>
-          <a href="./gioithieu.html">Giới thiệu</a></li>
-        <li>
-          <a href="./daotao.html">Đào tạo</a>
-            <ul class="menu">
-              <li><a href="">Đại học</a></li>
-              <li><a href="">Thạc Sĩ</a></li>
-              <li><a href="">Ngắn hạn</a></li>
-            </ul>
-        </li>
-        <li>
-          <a href="./sinhvien.html">Sinh viên</a>
-          <ul>
-            <li><a href="">CLB</a></li>
-            <li><a href="">Học bổng</a></li>
-            <li><a href="">Việc làm</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="./tintuc.html">Tin tức</a></li>
-        <li>
-          <a href="./lienhe.html">Liên hệ</a></li>
-      </ul>
-    </div>
-    </header>
-    <h2>Liên hệ với chúng tôi</h2>
-    <form action="submit_form.php" method="post">
-        <label for="name">Họ và tên:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+<h1>Trang web bán đồ ăn</h1>
+</header>
+<div class="menu">
+        <ul>
+            <li><a href="./index.html">Trang chủ</a></li>
+            <li>
+                <a href="">Đồ ăn nhanh</a>
+                        <ul>
+                            <li><a href="">Xúc xích</a></li>
+                            <li><a href="">Nem chua rán</a></li>
+                            <li><a href="">Kimbap</a></li>
+                            <li><a href="">Pho mai que</a></li>
+                            <li><a href="">Há cảo chiên</a></li>
+                            <li><a href="">Viên chiên</a></li>
+                            <li><a href="">Bánh gối</a></li>
+                            <li><a href="">Nem nướng Nha Trang</a></li>
+                            <li><a href="">Pizza</a></li>
+                        </ul>
+            </li>
+            <li>
+                <a href="">Đồ uống</a>
+                    <ul>
+                        <li><a href="">Trà chanh</a></li>
+                        <li><a href="">Trà sữa chân châu</a></li>
+                        <li><a href="">Trà đào</a></li>
+                        <li><a href="">Trà đào cam sả</a></li>
+                        <li><a href="">Coca</a></li>
+                        <li><a href="">Pepsi</a></li>
+                        <li><a href="">Sprite</a></li>
+                        <li><a href="">Lavie</a></li>
+                    </ul>
+            </li>
+            <li>
+                <a href="">Đồ ăn đêm</a>
+                <ul>
+                    <li><a href="">Gà luộc</a></li>
+                    <li><a href="">Gà ủ muối</a></li>
+                    <li><a href="">Xúc xích</a></li>
+                    <li><a href="">Nem chua rán</a></li>
+                    <li><a href="">Viên chiên</a></li>
+                    <li><a href="">Gà rán</a></li>
+                </ul>
+            </li>
+            <li><a href="">Liên hệ</a></li>
+        </ul>
+</div>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
 
-        <label for="subject">Chủ đề:</label><br>
-        <input type="text" id="subject" name="subject" required><br><br>
 
-        <label for="message">Nội dung:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+<div>
+<h2>Gửi yêu cầu / Đặt hàng</h2>
+<p>Điền thông tin và mô tả ngắn — chúng tôi sẽ liên hệ lại nhanh nhất.</p>
 
-        <input type="submit" value="Gửi">
-    </form>
-    <footer>
-      <p>Email: dnu@dainam.edu.vn</p>
-      <p>&copy; 2025 Khoa CNTT - Đại học Đại Nam</p>
-      <p>Địa chỉ: Số 1, Phố Xốm, Phường Phú Lương, Thành phố Hà Nội</p>
-    </footer>
+
+<form action="#" method="post" style="margin-top:12px">
+<label for="name">Họ và tên</label>
+<input type="text" id="name" name="name" placeholder="Nguyễn Văn A" required>
+
+
+<label for="phone" style="margin-top:10px">Số điện thoại</label>
+<input type="text" id="phone" name="phone" placeholder="+84 9xx xxx xxx" required>
+
+
+<label for="email" style="margin-top:10px">Email (không bắt buộc)</label>
+<input type="email" id="email" name="email" placeholder="you@example.com">
+
+
+<label for="message" style="margin-top:10px">Nội dung / Đơn hàng</label>
+<textarea id="message" name="message" placeholder="Ghi rõ món, số lượng, giờ nhận..." required></textarea>
+
+
+<div style="margin-top:12px;display:flex;gap:8px;align-items:center">
+<button type="submit">Gửi yêu cầu</button>
+</div>
+
+
+<h2>Liên hệ với chúng tôi</h2>
+<p>Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào, vui lòng liên hệ với chúng tôi qua các kênh sau:</p>
+<ul>
+    <li>Email: nqadzpro@gmail.com</li>
+    <li>Điện thoại: 0352288258</li>
+    <li>Địa chỉ: Đan Nhiễm - Thường Tín - Hà Nội</li>
+</ul>
+<p>Chúng tôi sẽ cố gắng phản hồi bạn trong thời gian sớm nhất</p>
+<footer>&copy;2025 Nguyễn Quốc Anh-CNTT-1902</footer>
 </body>
 </html>
